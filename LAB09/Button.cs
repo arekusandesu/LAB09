@@ -15,13 +15,15 @@ namespace LAB09
         }
         public void Click()
         {
+            IsEnabled = !IsEnabled;
+
             if (!IsEnabled)
             {
-                Console.WriteLine("Кнопка отключена.");
+                Console.WriteLine($"Кнопка {Text} отключена.");
             }
             else
             {
-                Console.WriteLine("Кнопка включена");
+                Console.WriteLine($"Кнопка {Text} включена.");
             }
         }
         public void Resize(int newWidth, int newHeight)

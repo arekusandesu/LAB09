@@ -48,6 +48,7 @@ catch (Exception ex)
 
 Console.WriteLine("\n5. Тестирование кнопок (Click).");
 btnOk.Click();
+btnOk.Click();
 btnCancel.Click();
 
 Console.WriteLine("\n6. Тестирование текстового поля (SetText).");
